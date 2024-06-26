@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.todo;
+package com.harsh.rest.webservices.restfulwebservices.todo;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +14,11 @@ public class TodoService {
 	private static int todosCount = 0;
 	
 	static {
-		todos.add(new Todo(++todosCount, "in28minutes","Get AWS Certified", 
+		todos.add(new Todo(++todosCount, "harsh","Get AWS Certified", 
 							LocalDate.now().plusYears(10), false ));
-		todos.add(new Todo(++todosCount, "in28minutes","Learn DevOps", 
+		todos.add(new Todo(++todosCount, "harsh","Learn DevOps", 
 				LocalDate.now().plusYears(11), false ));
-		todos.add(new Todo(++todosCount, "in28minutes","Learn Full Stack Development", 
+		todos.add(new Todo(++todosCount, "harsh","Learn Full Stack Development", 
 				LocalDate.now().plusYears(12), false ));
 	}
 	

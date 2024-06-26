@@ -1,4 +1,5 @@
 {
     "search.useParentIgnoreFiles": false,
-    "search.useIgnoreFiles": true
+    "search.useIgnoreFiles": true,
+    "java.compile.nullAnalysis.mode": "automatic"
 }
